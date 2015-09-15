@@ -1,6 +1,9 @@
 # SwiftRSS [![Build Status](https://travis-ci.org/tibo/SwiftRSS.svg)](https://travis-ci.org/tibo/SwiftRSS)
 
-SwiftRSS is a simple RSS parser written in Swift.
+SwiftRSS is a simple RSS parser written in Swift. This repo is a fork of [tibo/SwiftRSS](https://github.com/tibo/SwiftRSS). I forked it because there has been no activity on the original repo for almost a year and it was incompatible with newer versions of Swift (this repo now works with Swift 2.0 and iOS 9).
+
+## Swift versions
+See the [releases](https://github.com/AlexChesters/SwiftRSS/releases) for information on which copy of the code supports which Swift version.
 
 ## Todo
 
@@ -12,13 +15,10 @@ SwiftRSS is a simple RSS parser written in Swift.
 - [x] Handle Comment link, feed and count (specific to Wordpress)
 - [x] Add images helper (an array of images URL like for BlockRSSParser)
 - [x] Continuous integration
-- [ ] Cocoapods spec (waiting for Cocoapods Swift support)
 
 ## Installation
 
-The project will be available as a Pod as soon as Cocoapods will release the Swift support.
-
-For now you can install this module manualy : Copy the content of the SwiftRSS folder and add it to your project.
+For now you can install this module manually : Copy the content of the SwiftRSS folder and add it to your project.
 
 You can also use this project as Git [submodule](http://git-scm.com/docs/git-submodule).
 
@@ -36,11 +36,9 @@ RSSParser.parseFeedForRequest(request, callback: { (feed, error) -> Void in
 })
 ```
 
-As results you get a [RSSFeed](https://github.com/tibo/SwiftRSS/blob/master/SwiftRSS/RSSFeed.swift) object which contain a array of [RSSItem](https://github.com/tibo/SwiftRSS/blob/master/SwiftRSS/RSSItem.swift)s or, if something wrong happen the `NSError` which will give you the error from the network call or the parsing process.
+As results you get a [RSSFeed](https://github.com/alexchesters/SwiftRSS/blob/master/SwiftRSS/RSSFeed.swift) object which contain a array of [RSSItem](https://github.com/alexchesters/SwiftRSS/blob/master/SwiftRSS/RSSItem.swift)s or, if something wrong happen the `NSError` which will give you the error from the network call or the parsing process.
 
 ## How to contribute
-
-If you need help on how to setup this project or how to use it, please use [Stack Overflow](http://stackoverflow.com/questions/tagged/swiftrss).
 
 If you notice a bug, please open an issue with all the details and code to reproduce this issue.
 
