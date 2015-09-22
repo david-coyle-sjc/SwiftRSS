@@ -1,6 +1,6 @@
 # SwiftRSS [![Build Status](https://travis-ci.org/tibo/SwiftRSS.svg)](https://travis-ci.org/tibo/SwiftRSS)
 
-SwiftRSS is a simple RSS parser written in Swift. This repo is a fork of [AlexChesters/SwiftRSS](https://github.com/AlexChesters/SwiftRSS) made for CocoaPods. I forked it because there has been no activity on the original repo for almost a year and it was incompatible with newer versions of Swift (this repo now works with Swift 2.0 and iOS 9).
+SwiftRSS is a simple RSS parser written in Swift. This repo is a fork of [AlexChesters/SwiftRSS](https://github.com/AlexChesters/SwiftRSS) made for CocoaPods.
 
 ## Todo
 
