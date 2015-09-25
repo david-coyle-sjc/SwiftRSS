@@ -51,6 +51,7 @@ class DetailViewController: UIViewController {
                         
                         template = template.stringByReplacingOccurrencesOfString("###DATE###", withString: formatter.stringFromDate(date))
                     }
+                  self.itemWebView.loadHTMLString(template as String, baseURL: templateURL)
                 }
             }
         }
