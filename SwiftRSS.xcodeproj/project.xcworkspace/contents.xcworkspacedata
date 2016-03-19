@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:SwiftRSS_Example.xcodeproj">
+      location = "self:/Users/dcoyle/Projects/3rd Party/SwiftRSS/SwiftRSS.xcodeproj">
    </FileRef>
 </Workspace>

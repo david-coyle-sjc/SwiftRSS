@@ -292,7 +292,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 119025D119B92DA1009184BE /* Build configuration list for PBXProject "SwiftRSS_Example" */;
+			buildConfigurationList = 119025D119B92DA1009184BE /* Build configuration list for PBXProject "SwiftRSS" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -426,7 +426,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lelevier.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftRSS_Example.app/SwiftRSS_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftRSS.app/SwiftRSS";
 			};
 			name = Debug;
 		};
@@ -441,7 +441,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lelevier.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftRSS_Example.app/SwiftRSS_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftRSS.app/SwiftRSS";
 			};
 			name = Release;
 		};
@@ -614,7 +614,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		119025D119B92DA1009184BE /* Build configuration list for PBXProject "SwiftRSS_Example" */ = {
+		119025D119B92DA1009184BE /* Build configuration list for PBXProject "SwiftRSS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				119025F219B92DA1009184BE /* Debug */,

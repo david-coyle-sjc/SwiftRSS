@@ -17,7 +17,7 @@
                BlueprintIdentifier = "119025D519B92DA1009184BE"
                BuildableName = "SwiftRSS_Example.app"
                BlueprintName = "SwiftRSS_Example"
-               ReferencedContainer = "container:SwiftRSS_Example.xcodeproj">
+               ReferencedContainer = "container:SwiftRSS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -31,7 +31,7 @@
                BlueprintIdentifier = "119025E919B92DA1009184BE"
                BuildableName = "SwiftRSS_ExampleTests.xctest"
                BlueprintName = "SwiftRSS_ExampleTests"
-               ReferencedContainer = "container:SwiftRSS_Example.xcodeproj">
+               ReferencedContainer = "container:SwiftRSS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -45,7 +45,7 @@
                BlueprintIdentifier = "114E26BD19BA399B00D292F3"
                BuildableName = "Tests.xctest"
                BlueprintName = "Tests"
-               ReferencedContainer = "container:SwiftRSS_Example.xcodeproj">
+               ReferencedContainer = "container:SwiftRSS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -63,7 +63,7 @@
                BlueprintIdentifier = "114E26BD19BA399B00D292F3"
                BuildableName = "Tests.xctest"
                BlueprintName = "Tests"
-               ReferencedContainer = "container:SwiftRSS_Example.xcodeproj">
+               ReferencedContainer = "container:SwiftRSS.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -73,7 +73,7 @@
             BlueprintIdentifier = "119025D519B92DA1009184BE"
             BuildableName = "SwiftRSS_Example.app"
             BlueprintName = "SwiftRSS_Example"
-            ReferencedContainer = "container:SwiftRSS_Example.xcodeproj">
+            ReferencedContainer = "container:SwiftRSS.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -96,7 +96,7 @@
             BlueprintIdentifier = "119025D519B92DA1009184BE"
             BuildableName = "SwiftRSS_Example.app"
             BlueprintName = "SwiftRSS_Example"
-            ReferencedContainer = "container:SwiftRSS_Example.xcodeproj">
+            ReferencedContainer = "container:SwiftRSS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -115,7 +115,7 @@
             BlueprintIdentifier = "119025D519B92DA1009184BE"
             BuildableName = "SwiftRSS_Example.app"
             BlueprintName = "SwiftRSS_Example"
-            ReferencedContainer = "container:SwiftRSS_Example.xcodeproj">
+            ReferencedContainer = "container:SwiftRSS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
